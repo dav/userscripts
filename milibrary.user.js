@@ -6,6 +6,7 @@
 // @match      http://search.milibrary.org/patroninfo
 // ==/UserScript==
 
+// See https://gist.github.com/437513
 function addJQuery(callback) {
   var script = document.createElement("script");
   script.setAttribute("src", "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js");
